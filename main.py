@@ -12,7 +12,7 @@ DEFAULT_DUPLICATES = False
 
 def sort_list(items, ascending=True):
     if not isinstance(items, list):
-        raise RuntimeError(f"No puede ordenar {type(items)}")
+        raise RuntimeError(f"No se puede ordenar {type(items)}, revisar el archivo!!!")
 
     return sorted(items, reverse=(not ascending))
 
